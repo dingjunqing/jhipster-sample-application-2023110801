@@ -1,0 +1,18 @@
+{
+  "applications": ["myApp"],
+  "changelogDate": "20231108012902",
+  "entityTableName": "a",
+  "fields": [],
+  "name": "A",
+  "pagination": "no",
+  "relationships": [
+    {
+      "otherEntityName": "b",
+      "otherEntityRelationshipName": "a",
+      "relationshipName": "b",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no"
+}

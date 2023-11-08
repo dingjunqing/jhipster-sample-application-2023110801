@@ -15,7 +15,7 @@
 
 spring:
   application:
-    name: jhipsterSampleApplication2023110801
+    name: myApp
   jackson:
     serialization:
       write-durations-as-timestamps: false
@@ -33,13 +33,13 @@ spring:
         - USER
   task:
     execution:
-      thread-name-prefix: jhipster-sample-application-2023110801-task-
+      thread-name-prefix: my-app-task-
       pool:
         core-size: 1
         max-size: 50
         queue-capacity: 10000
     scheduling:
-      thread-name-prefix: jhipster-sample-application-2023110801-scheduling-
+      thread-name-prefix: my-app-scheduling-
       pool:
         size: 20
   thymeleaf:
@@ -56,9 +56,9 @@ server:
 # ===================================================================
 jhipster:
   clientApp:
-    name: 'jhipsterSampleApplication2023110801App'
+    name: 'myApp'
   mail:
-    from: jhipsterSampleApplication2023110801@localhost.com
+    from: myApp@localhost.com
     base-url: http://127.0.0.1:8080
   logging:
     # To test json console appender
