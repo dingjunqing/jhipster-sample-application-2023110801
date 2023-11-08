@@ -3,12 +3,12 @@
                              https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.mycompany.myapp</groupId>
-    <artifactId>jhipster-sample-application-2023110801</artifactId>
+    <groupId>com.myapp</groupId>
+    <artifactId>my-app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>Jhipster Sample Application 2023110801</name>
-    <description>Description for Jhipster Sample Application 2023110801</description>
+    <name>My App</name>
+    <description>Description for My App</description>
 
     <properties>
         <!--
@@ -24,7 +24,7 @@
         <maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <start-class>com.mycompany.myapp.JhipsterSampleApplication2023110801App</start-class>
+        <start-class>com.myapp.MyApp</start-class>
         <argLine>-Djava.security.egd=file:/dev/./urandom -Xmx1G</argLine>
         <m2e.apt.activation>jdt_apt</m2e.apt.activation>
         <run.addResources>false</run.addResources>
@@ -327,7 +327,7 @@
                             </platforms>
                         </from>
                         <to>
-                            <image>jhipstersampleapplication2023110801:latest</image>
+                            <image>myapp:latest</image>
                         </to>
                         <container>
                             <entrypoint>
@@ -929,7 +929,7 @@
                                         <include>package-lock.json</include>
                                         <include>package.json</include>
                                         <include>tsconfig.json</include>
-                                        <include>.postcss.config.js</include>
+                                        <include>tsconfig.app.json</include>
                                         <include>webpack/*.*</include>
                                     </includes>
                                     <excludes>
